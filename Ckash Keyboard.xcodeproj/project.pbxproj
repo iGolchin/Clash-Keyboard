@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBABF2251C4D4875008C623C /* persianView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBABF2241C4D4875008C623C /* persianView.xib */; };
+		DBABF22B1C4D4BD9008C623C /* rounded_rectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = DBABF22A1C4D4BD9008C623C /* rounded_rectangle.png */; };
+		DBBA5B411C4CF1D10077DDCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA5B401C4CF1D10077DDCA /* AppDelegate.swift */; };
+		DBBA5B431C4CF1D10077DDCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA5B421C4CF1D10077DDCA /* ViewController.swift */; };
+		DBBA5B461C4CF1D10077DDCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA5B441C4CF1D10077DDCA /* Main.storyboard */; };
+		DBBA5B481C4CF1D10077DDCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBBA5B471C4CF1D10077DDCA /* Assets.xcassets */; };
+		DBBA5B4B1C4CF1D10077DDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBA5B491C4CF1D10077DDCA /* LaunchScreen.storyboard */; };
+		DBBA5B561C4CF1D10077DDCA /* Ckash_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA5B551C4CF1D10077DDCA /* Ckash_KeyboardTests.swift */; };
+		DBBA5B611C4CF1D10077DDCA /* Ckash_KeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA5B601C4CF1D10077DDCA /* Ckash_KeyboardUITests.swift */; };
+		DBBA5B751C4CF2560077DDCA /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBA5B741C4CF2560077DDCA /* KeyboardViewController.swift */; };
+		DBBA5B791C4CF2560077DDCA /* Clash Keyboard Farsi.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBBA5B721C4CF2560077DDCA /* Clash Keyboard Farsi.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBBA5B7F1C4CF2AE0077DDCA /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBA5B7E1C4CF2AE0077DDCA /* KeyboardView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBBA5B521C4CF1D10077DDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBA5B351C4CF1D10077DDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBA5B3C1C4CF1D10077DDCA;
+			remoteInfo = "Ckash Keyboard";
+		};
+		DBBA5B5D1C4CF1D10077DDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBA5B351C4CF1D10077DDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBA5B3C1C4CF1D10077DDCA;
+			remoteInfo = "Ckash Keyboard";
+		};
+		DBBA5B771C4CF2560077DDCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBBA5B351C4CF1D10077DDCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBA5B711C4CF2560077DDCA;
+			remoteInfo = "Clash Keyboard Farsi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBBA5B7D1C4CF2560077DDCA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DBBA5B791C4CF2560077DDCA /* Clash Keyboard Farsi.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBABF2241C4D4875008C623C /* persianView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = persianView.xib; sourceTree = "<group>"; };
+		DBABF22A1C4D4BD9008C623C /* rounded_rectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rounded_rectangle.png; sourceTree = "<group>"; };
+		DBBA5B3D1C4CF1D10077DDCA /* Clash Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clash Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBA5B401C4CF1D10077DDCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBBA5B421C4CF1D10077DDCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBBA5B451C4CF1D10077DDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBBA5B471C4CF1D10077DDCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBBA5B4A1C4CF1D10077DDCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBBA5B4C1C4CF1D10077DDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBA5B511C4CF1D10077DDCA /* Clash KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clash KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBA5B551C4CF1D10077DDCA /* Ckash_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ckash_KeyboardTests.swift; sourceTree = "<group>"; };
+		DBBA5B571C4CF1D10077DDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBA5B5C1C4CF1D10077DDCA /* Clash KeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clash KeyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBA5B601C4CF1D10077DDCA /* Ckash_KeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ckash_KeyboardUITests.swift; sourceTree = "<group>"; };
+		DBBA5B621C4CF1D10077DDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBA5B721C4CF2560077DDCA /* Clash Keyboard Farsi.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clash Keyboard Farsi.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBA5B741C4CF2560077DDCA /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		DBBA5B761C4CF2560077DDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBA5B7E1C4CF2AE0077DDCA /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBBA5B3A1C4CF1D10077DDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B4E1C4CF1D10077DDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B591C4CF1D10077DDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B6F1C4CF2560077DDCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBBA5B341C4CF1D10077DDCA = {
+			isa = PBXGroup;
+			children = (
+				DBBA5B3F1C4CF1D10077DDCA /* Ckash Keyboard */,
+				DBBA5B541C4CF1D10077DDCA /* Ckash KeyboardTests */,
+				DBBA5B5F1C4CF1D10077DDCA /* Ckash KeyboardUITests */,
+				DBBA5B731C4CF2560077DDCA /* Clash Keyboard Farsi */,
+				DBBA5B3E1C4CF1D10077DDCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBBA5B3E1C4CF1D10077DDCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA5B3D1C4CF1D10077DDCA /* Clash Keyboard.app */,
+				DBBA5B511C4CF1D10077DDCA /* Clash KeyboardTests.xctest */,
+				DBBA5B5C1C4CF1D10077DDCA /* Clash KeyboardUITests.xctest */,
+				DBBA5B721C4CF2560077DDCA /* Clash Keyboard Farsi.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBBA5B3F1C4CF1D10077DDCA /* Ckash Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA5B401C4CF1D10077DDCA /* AppDelegate.swift */,
+				DBBA5B421C4CF1D10077DDCA /* ViewController.swift */,
+				DBBA5B441C4CF1D10077DDCA /* Main.storyboard */,
+				DBBA5B471C4CF1D10077DDCA /* Assets.xcassets */,
+				DBBA5B491C4CF1D10077DDCA /* LaunchScreen.storyboard */,
+				DBBA5B4C1C4CF1D10077DDCA /* Info.plist */,
+			);
+			path = "Ckash Keyboard";
+			sourceTree = "<group>";
+		};
+		DBBA5B541C4CF1D10077DDCA /* Ckash KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA5B551C4CF1D10077DDCA /* Ckash_KeyboardTests.swift */,
+				DBBA5B571C4CF1D10077DDCA /* Info.plist */,
+			);
+			path = "Ckash KeyboardTests";
+			sourceTree = "<group>";
+		};
+		DBBA5B5F1C4CF1D10077DDCA /* Ckash KeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBBA5B601C4CF1D10077DDCA /* Ckash_KeyboardUITests.swift */,
+				DBBA5B621C4CF1D10077DDCA /* Info.plist */,
+			);
+			path = "Ckash KeyboardUITests";
+			sourceTree = "<group>";
+		};
+		DBBA5B731C4CF2560077DDCA /* Clash Keyboard Farsi */ = {
+			isa = PBXGroup;
+			children = (
+				DBABF22A1C4D4BD9008C623C /* rounded_rectangle.png */,
+				DBBA5B7E1C4CF2AE0077DDCA /* KeyboardView.xib */,
+				DBABF2241C4D4875008C623C /* persianView.xib */,
+				DBBA5B741C4CF2560077DDCA /* KeyboardViewController.swift */,
+				DBBA5B761C4CF2560077DDCA /* Info.plist */,
+			);
+			path = "Clash Keyboard Farsi";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBBA5B3C1C4CF1D10077DDCA /* Clash Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBA5B651C4CF1D10077DDCA /* Build configuration list for PBXNativeTarget "Clash Keyboard" */;
+			buildPhases = (
+				DBBA5B391C4CF1D10077DDCA /* Sources */,
+				DBBA5B3A1C4CF1D10077DDCA /* Frameworks */,
+				DBBA5B3B1C4CF1D10077DDCA /* Resources */,
+				DBBA5B7D1C4CF2560077DDCA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBA5B781C4CF2560077DDCA /* PBXTargetDependency */,
+			);
+			name = "Clash Keyboard";
+			productName = "Ckash Keyboard";
+			productReference = DBBA5B3D1C4CF1D10077DDCA /* Clash Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBBA5B501C4CF1D10077DDCA /* Clash KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBA5B681C4CF1D10077DDCA /* Build configuration list for PBXNativeTarget "Clash KeyboardTests" */;
+			buildPhases = (
+				DBBA5B4D1C4CF1D10077DDCA /* Sources */,
+				DBBA5B4E1C4CF1D10077DDCA /* Frameworks */,
+				DBBA5B4F1C4CF1D10077DDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBA5B531C4CF1D10077DDCA /* PBXTargetDependency */,
+			);
+			name = "Clash KeyboardTests";
+			productName = "Ckash KeyboardTests";
+			productReference = DBBA5B511C4CF1D10077DDCA /* Clash KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBBA5B5B1C4CF1D10077DDCA /* Clash KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBA5B6B1C4CF1D10077DDCA /* Build configuration list for PBXNativeTarget "Clash KeyboardUITests" */;
+			buildPhases = (
+				DBBA5B581C4CF1D10077DDCA /* Sources */,
+				DBBA5B591C4CF1D10077DDCA /* Frameworks */,
+				DBBA5B5A1C4CF1D10077DDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBA5B5E1C4CF1D10077DDCA /* PBXTargetDependency */,
+			);
+			name = "Clash KeyboardUITests";
+			productName = "Ckash KeyboardUITests";
+			productReference = DBBA5B5C1C4CF1D10077DDCA /* Clash KeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DBBA5B711C4CF2560077DDCA /* Clash Keyboard Farsi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBA5B7A1C4CF2560077DDCA /* Build configuration list for PBXNativeTarget "Clash Keyboard Farsi" */;
+			buildPhases = (
+				DBBA5B6E1C4CF2560077DDCA /* Sources */,
+				DBBA5B6F1C4CF2560077DDCA /* Frameworks */,
+				DBBA5B701C4CF2560077DDCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clash Keyboard Farsi";
+			productName = "Clash Keyboard Farsi";
+			productReference = DBBA5B721C4CF2560077DDCA /* Clash Keyboard Farsi.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBBA5B351C4CF1D10077DDCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "iGO Studio";
+				TargetAttributes = {
+					DBBA5B3C1C4CF1D10077DDCA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J6S364963E;
+					};
+					DBBA5B501C4CF1D10077DDCA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J6S364963E;
+						TestTargetID = DBBA5B3C1C4CF1D10077DDCA;
+					};
+					DBBA5B5B1C4CF1D10077DDCA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J6S364963E;
+						TestTargetID = DBBA5B3C1C4CF1D10077DDCA;
+					};
+					DBBA5B711C4CF2560077DDCA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J6S364963E;
+					};
+				};
+			};
+			buildConfigurationList = DBBA5B381C4CF1D10077DDCA /* Build configuration list for PBXProject "Ckash Keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBBA5B341C4CF1D10077DDCA;
+			productRefGroup = DBBA5B3E1C4CF1D10077DDCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBBA5B3C1C4CF1D10077DDCA /* Clash Keyboard */,
+				DBBA5B501C4CF1D10077DDCA /* Clash KeyboardTests */,
+				DBBA5B5B1C4CF1D10077DDCA /* Clash KeyboardUITests */,
+				DBBA5B711C4CF2560077DDCA /* Clash Keyboard Farsi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBBA5B3B1C4CF1D10077DDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBA5B4B1C4CF1D10077DDCA /* LaunchScreen.storyboard in Resources */,
+				DBBA5B481C4CF1D10077DDCA /* Assets.xcassets in Resources */,
+				DBBA5B461C4CF1D10077DDCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B4F1C4CF1D10077DDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B5A1C4CF1D10077DDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B701C4CF2560077DDCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBA5B7F1C4CF2AE0077DDCA /* KeyboardView.xib in Resources */,
+				DBABF2251C4D4875008C623C /* persianView.xib in Resources */,
+				DBABF22B1C4D4BD9008C623C /* rounded_rectangle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBBA5B391C4CF1D10077DDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBA5B431C4CF1D10077DDCA /* ViewController.swift in Sources */,
+				DBBA5B411C4CF1D10077DDCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B4D1C4CF1D10077DDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBA5B561C4CF1D10077DDCA /* Ckash_KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B581C4CF1D10077DDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBA5B611C4CF1D10077DDCA /* Ckash_KeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA5B6E1C4CF2560077DDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBA5B751C4CF2560077DDCA /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBBA5B531C4CF1D10077DDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBA5B3C1C4CF1D10077DDCA /* Clash Keyboard */;
+			targetProxy = DBBA5B521C4CF1D10077DDCA /* PBXContainerItemProxy */;
+		};
+		DBBA5B5E1C4CF1D10077DDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBA5B3C1C4CF1D10077DDCA /* Clash Keyboard */;
+			targetProxy = DBBA5B5D1C4CF1D10077DDCA /* PBXContainerItemProxy */;
+		};
+		DBBA5B781C4CF2560077DDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBA5B711C4CF2560077DDCA /* Clash Keyboard Farsi */;
+			targetProxy = DBBA5B771C4CF2560077DDCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBBA5B441C4CF1D10077DDCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBBA5B451C4CF1D10077DDCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBBA5B491C4CF1D10077DDCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBBA5B4A1C4CF1D10077DDCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBBA5B631C4CF1D10077DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBBA5B641C4CF1D10077DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBBA5B661C4CF1D10077DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Ckash Keyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.iGOStudio.Ckash-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DBBA5B671C4CF1D10077DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "Ckash Keyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.iGOStudio.Ckash-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DBBA5B691C4CF1D10077DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ckash KeyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.iGOStudio.Ckash-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ckash Keyboard.app/Ckash Keyboard";
+			};
+			name = Debug;
+		};
+		DBBA5B6A1C4CF1D10077DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ckash KeyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.iGOStudio.Ckash-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ckash Keyboard.app/Ckash Keyboard";
+			};
+			name = Release;
+		};
+		DBBA5B6C1C4CF1D10077DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ckash KeyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.iGOStudio.Ckash-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ckash Keyboard";
+			};
+			name = Debug;
+		};
+		DBBA5B6D1C4CF1D10077DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ckash KeyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.iGOStudio.Ckash-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ckash Keyboard";
+			};
+			name = Release;
+		};
+		DBBA5B7B1C4CF2560077DDCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Clash Keyboard Farsi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.iGOStudio.Ckash-Keyboard.Clash-Keyboard-Farsi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DBBA5B7C1C4CF2560077DDCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Clash Keyboard Farsi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ir.iGOStudio.Ckash-Keyboard.Clash-Keyboard-Farsi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBBA5B381C4CF1D10077DDCA /* Build configuration list for PBXProject "Ckash Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA5B631C4CF1D10077DDCA /* Debug */,
+				DBBA5B641C4CF1D10077DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBA5B651C4CF1D10077DDCA /* Build configuration list for PBXNativeTarget "Clash Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA5B661C4CF1D10077DDCA /* Debug */,
+				DBBA5B671C4CF1D10077DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBA5B681C4CF1D10077DDCA /* Build configuration list for PBXNativeTarget "Clash KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA5B691C4CF1D10077DDCA /* Debug */,
+				DBBA5B6A1C4CF1D10077DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBA5B6B1C4CF1D10077DDCA /* Build configuration list for PBXNativeTarget "Clash KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA5B6C1C4CF1D10077DDCA /* Debug */,
+				DBBA5B6D1C4CF1D10077DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBA5B7A1C4CF2560077DDCA /* Build configuration list for PBXNativeTarget "Clash Keyboard Farsi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBA5B7B1C4CF2560077DDCA /* Debug */,
+				DBBA5B7C1C4CF2560077DDCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBBA5B351C4CF1D10077DDCA /* Project object */;
+}
