@@ -1,4 +1,4 @@
-# clash-Keyboard
+# Clash Keyboard
 Clash of Clans farsi keyboard
 
 A self made app with my first experiance in Swift.
