@@ -8,4 +8,4 @@ No such graphic,Some bugs
 You can develop it and make it better or your can make new app on this old idea
 
 for more question contact at:
-Farid@Golchin.org
+bug@iGolchin.com
